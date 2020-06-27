@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="carat <= 0.475\ngini = 0.744\nsamples = 40000\nvalue = [10451, 10474, 4130, 13071, 1874]\nclass = s", fillcolor="#eeeefd"] ;
+1 [label="carat <= 0.465\ngini = 0.006\nsamples = 13083\nvalue = [0, 39, 0, 13044, 0]\nclass = s", fillcolor="#3d3ae5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="price <= 1833.5\ngini = 0.002\nsamples = 13015\nvalue = [0, 10, 0, 13005, 0]\nclass = s", fillcolor="#3c39e5"] ;
+1 -> 2 ;
+3 [label="gini = 0.001\nsamples = 12996\nvalue = [0, 7, 0, 12989, 0]\nclass = s", fillcolor="#3c39e5"] ;
+2 -> 3 ;
+4 [label="gini = 0.266\nsamples = 19\nvalue = [0, 3, 0, 16, 0]\nclass = s", fillcolor="#615eea"] ;
+2 -> 4 ;
+5 [label="price <= 1617.0\ngini = 0.489\nsamples = 68\nvalue = [0, 29, 0, 39, 0]\nclass = s", fillcolor="#cdccf8"] ;
+1 -> 5 ;
+6 [label="gini = 0.413\nsamples = 55\nvalue = [0, 16, 0, 39, 0]\nclass = s", fillcolor="#8c8af0"] ;
+5 -> 6 ;
+7 [label="gini = 0.0\nsamples = 13\nvalue = [0, 13, 0, 0, 0]\nclass = l", fillcolor="#7be539"] ;
+5 -> 7 ;
+8 [label="carat <= 0.835\ngini = 0.671\nsamples = 26917\nvalue = [10451, 10435, 4130, 27, 1874]\nclass = c", fillcolor="#ffffff"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="carat <= 0.805\ngini = 0.021\nsamples = 10509\nvalue = [91, 10396, 0, 21, 1]\nclass = l", fillcolor="#7ce53b"] ;
+8 -> 9 ;
+10 [label="gini = 0.006\nsamples = 10173\nvalue = [10, 10141, 0, 21, 1]\nclass = l", fillcolor="#7be53a"] ;
+9 -> 10 ;
+11 [label="gini = 0.366\nsamples = 336\nvalue = [81, 255, 0, 0, 0]\nclass = l", fillcolor="#a5ed78"] ;
+9 -> 11 ;
+12 [label="carat <= 1.295\ngini = 0.525\nsamples = 16408\nvalue = [10360, 39, 4130, 6, 1873]\nclass = c", fillcolor="#f2bf9b"] ;
+8 -> 12 ;
+13 [label="gini = 0.146\nsamples = 11056\nvalue = [10181, 38, 832, 5, 0]\nclass = c", fillcolor="#e78c4a"] ;
+12 -> 13 ;
+14 [label="gini = 0.497\nsamples = 5352\nvalue = [179, 1, 3298, 1, 1873]\nclass = u", fillcolor="#aef4e7"] ;
+12 -> 14 ;
+}
