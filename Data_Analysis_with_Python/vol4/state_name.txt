@@ -1,0 +1,51 @@
+AK	Alaska	アラスカ
+AL	Alabama	アラバマ
+AR	Arkansas	アーカンソー
+AZ	Arizona	アリゾナ
+CA	California	カリフォルニア
+CO	Colorado	コロラド
+CT	Connecticut	コネチカット
+DC	District of Columbia	ワシントン DC
+DE	Delaware	デラウェア
+FL	Florida	フロリダ
+GA	Georgia	ジョージア
+HI	Hawaii	ハワイ
+IA	Iowa	アイオワ
+ID	Idaho	アイダホ
+IL	Illinois	イリノイ
+IN	Indiana	インディアナ
+KS	Kansas	カンザス
+KY	Kentucky	ケンタッキー
+LA	Louisiana	ルイジアナ
+MA	Massachusetts	マサチューセッツ
+MD	Maryland	メリーランド
+ME	Maine	メイン
+MI	Michigan	ミシガン
+MN	Minnesota	ミネソタ
+MO	Missouri	ミズーリ
+MS	Mississippi	ミシシッピ
+MT	Montana	モンタナ
+NC	North Carolina	ノースカロライナ
+ND	North Dakota	ノースダコタ
+NE	Nebraska	ネブラスカ
+NH	New Hampshire	ニューハンプシャー
+NJ	New Jersey	ニュージャージー
+NM	New Mexico	ニューメキシコ
+NV	Nevada	ネバダ
+NY	New York	ニューヨーク
+OH	Ohio	オハイオ
+OK	Oklahoma	オクラホマ
+OR	Oregon	オレゴン
+PA	Pennsylvania	ペンシルベニア
+RI	Rhode Island	ロードアイランド
+SC	South Carolina	サウスカロライナ
+SD	South Dakota	サウスダコタ
+TN	Tennessee	テネシー
+TX	Texas	テキサス
+UT	Utah	ユタ
+VA	Virginia	バージニア
+VT	Vermont	バーモント
+WA	Washington	ワシントン
+WI	Wisconsin	ウィスコンシン
+WV	West Virginia	ウェストバージニア
+WY	Wyoming	ワイオミング
